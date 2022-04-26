@@ -1,6 +1,6 @@
 # Forex bot strategy
 
-Giới Thiệu
+##Giới Thiệu
 Đây là bot sẽ chạy trong năm 2021 với chiến lược giao dịch và kết quả backtest được thống kê ở dưới.
 Lưu ý: Bot này được sử dụng trong năm 2021 và không thể thay đổi bởi bất cứ bot nào nữa.
 Các Chức Năng
