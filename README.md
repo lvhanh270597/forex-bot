@@ -1,15 +1,16 @@
 # Forex bot strategy
 
-##Giới Thiệu
+## Giới Thiệu
 Đây là bot sẽ chạy trong năm 2021 với chiến lược giao dịch và kết quả backtest được thống kê ở dưới.
 Lưu ý: Bot này được sử dụng trong năm 2021 và không thể thay đổi bởi bất cứ bot nào nữa.
-Các Chức Năng
-Tự động vào lệnh khi có tín hiệu
-Khi phân tích dữ liệu qua từng tick, thấy có tín hiệu vào lệnh: Bot sẽ tự động vào lệnh theo đúng nguyên tắc giao dịch của nó. 
-Gửi thông báo
--	Khi đã vào lệnh mới thành công
--	Khi thoát một lệnh thành công
--	Khi thị trường đảo xu hướng dài hạn
+
+## Các Chức Năng
+* Tự động vào lệnh khi có tín hiệu
+* Khi phân tích dữ liệu qua từng tick, thấy có tín hiệu vào lệnh: Bot sẽ tự động vào lệnh theo đúng nguyên tắc giao dịch của nó. 
+* Gửi thông báo
+** Khi đã vào lệnh mới thành công
+** Khi thoát một lệnh thành công
+** Khi thị trường đảo xu hướng dài hạn
 Chiến Lược Giao Dịch
 Tín hiệu vào lệnh
 -	RSI không được quá mua hoặc quá bán
@@ -48,7 +49,7 @@ THÔNG SỐ PHỤ KHÁC
 -	Token của Bot trên kênh Telegram
 -	Danh sách các chatId của Telegram mà bot sẽ gửi thông báo tới
 
-Modules:
+## Modules:
 Values/Variables.mqh
 -	Nơi khai báo các extern input
 Signal/PriceAction.mqh:
